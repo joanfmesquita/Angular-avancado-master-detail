@@ -6,10 +6,10 @@ createDb(){
 
     const categories: Category[] = [
         {id: 1, name: 'moradia', description: 'pagamento de conta de casa'},
-        {id: 1, name: 'Saúde', description: 'Plano de saúde e remédios'},
-        {id: 1, name: 'Lazer', description: 'Cinema, Parque, Praia'},
-        {id: 1, name: 'Salário', description: 'Recebimento de Salário'},
-        {id: 1, name: 'Freelas', description: 'Trabalho como Freelancer'}
+        {id: 2, name: 'Saúde', description: 'Plano de saúde e remédios'},
+        {id: 3, name: 'Lazer', description: 'Cinema, Parque, Praia'},
+        {id: 4, name: 'Salário', description: 'Recebimento de Salário'},
+        {id: 5, name: 'Freelas', description: 'Trabalho como Freelancer'}
     ];
     return { categories }
 }
